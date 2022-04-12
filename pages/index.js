@@ -1,5 +1,5 @@
 import React from 'react';
-// getStaticProps()
+// First load data then render html
 // export async function getStaticProps() {
 export const getStaticProps = async () => {
 	const res = await fetch('https://restcountries.com/v3.1/all');
